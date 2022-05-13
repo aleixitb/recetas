@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    width: 70%;
+    margin: auto;
+}
+
+.categoria {
+    color: #fff;
+    background-color: #24BD77;
+    padding: 2em;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    width: fit-content;
+    padding: 1em 10em;
+    margin: 2em 0em;
+}
+
+.nom {
+    text-align: center;
+}
+
+.foto {
+    float: left;
+    height: 10em;
+    width: auto;
+}
+
+.informacioGeneral {
+    float: right;
+    margin: 2em;
+}
+
+.infoDins {
+    background-color: #3acf9e;
+}
+
+.ingredients {
+    display: inline;
+    background-color: #c0e7da;
+}
+
+.preparacio {
+
+}
+
+.ingredients > ul {
+    list-style: none;
+}
+
+.elements {
+    list-style: none;
+    counter-increment: item;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.lista {
+    display: block;
+}
+
+.elements:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: rgb(167, 236, 167);
+    border-radius: 100%;
+    color: white;
+    width: 1em;
+    text-align: center;
+    padding: 0.5em;
+  }

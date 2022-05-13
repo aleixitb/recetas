@@ -84,7 +84,7 @@
                     <!-- FOTO -->
                     <img class="foto">
                         <xsl:attribute name="src">
-                            ../<xsl:value-of select="foto"></xsl:value-of>
+                            <xsl:value-of select="foto"></xsl:value-of>
                         </xsl:attribute>
                     </img>
 
